@@ -1,0 +1,122 @@
+
+body {
+     background-color:darkslategrey;
+     color: darkred;
+     text-shadow: greenyellow;
+     display: flex;
+     flex-direction: column;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ }
+ h1 {
+     text-align: center;
+     font-weight: 900;
+    }
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3em 1em 0 1em;
+
+}
+
+p {
+    font-weight: bold;
+}
+/* Landing page */
+.landing {
+    background-image: url(/images/yokohama-by-night.webp);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.threefold {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(75, 10, 10);
+}
+.Gibson-1988 {
+    width: 100%;
+    height: 100%;
+}
+.bio-title {
+    text-align: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+.bio-text {
+    margin: 10% 5%; 
+    line-height: 3em;
+    background-color: grey;
+    
+}
+
+/* Neuromancer Trilogy */
+.neuro-title,
+.mona-title,
+.count-title{
+    font-size: 3em;
+}
+
+.neuro-title,
+.mona-title {
+    justify-content: left;
+    background: -webkit-linear-gradient(#22009b, #9c00da);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+.count-title {
+    background: -webkit-linear-gradient(#3aff20, #00ffdd);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.226), 0 0 20px rgb(255, 56, 56), 0 0 30px #00ffb3, 0 0 40px #00ff15, 0 0 50px #6400e6, 0 0 60px #73ff00, 0 0 70px #00ff9d;
+    }
+    to {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.192), 0 0 30px #0076c5, 0 0 40px #3717ec, 0 0 50px #640092, 0 0 60px #3b04bb, 0 0 70px #0059ff, 0 0 80px #000ba3;
+    }
+  }
+
+.neuromancer-trilogy {
+    background-image: url('https://wallpapercave.com/wp/wp6852825.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.cover-text {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 70%);
+}
+
+.neuromancer-img, 
+.mona-img {
+    width: 20%;
+    float: left;
+    margin: 25px 20px 15px 15PX;
+}
+
+.neuro-text,
+.count-text,
+.mona-text {
+    text-align: justify;
+    line-height: 1.5em;
+
+}
+
+
+
+.count-img {
+    width: 20%;
+    float: right;
+    margin: 25px 20px 15px 15PX;
+}
